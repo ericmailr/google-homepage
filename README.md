@@ -1,0 +1,4 @@
+From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)
+
+Task: Recreate the front-end of a webpage.
+
