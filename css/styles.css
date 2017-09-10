@@ -1,0 +1,150 @@
+html,body{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.nav ul{
+	display: block;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+.nav ul li{
+	float: right;
+}
+
+.nav ul li a{
+	display:block;
+	padding: 8px;
+}
+
+.results-nav .results-header-l li{
+	float:left;
+}
+
+.results-nav .results-header-r li{
+	float:right;
+}
+
+.results-nav .results-header-r li a{
+	padding:8px;
+}
+
+.results-nav {
+	background-color: #f2f2f2;	
+	/* overflow:auto; lets the background color show behind the float-ed child elements.
+	(parent loses defined dimensions when children are taken out of the flow of the document
+	with float.*/
+	overflow:auto;
+	margin-left:-30px;
+}
+
+.results-nav ul {
+	list-style-type: none;
+}
+
+.results-nav ul li a{
+	float:left;
+	display:block;
+}
+
+.results-nav .search-type {
+	float:left;
+	clear:left;
+	padding-left: 200px;
+	margin-top:10;
+}
+
+.results-nav .search-type li{
+	float:left;
+}
+
+.results-nav .search-type li a{
+	padding: 8px;
+	padding-top:0;
+}
+
+.results{
+	margin-left:200px;
+	width:580px;
+}
+
+.results .result-title{
+	color:blue;
+	font-size:120%;
+	margin-top:40px;
+}
+
+.results .result-url{
+	color:green;
+}
+
+#settings{
+	padding-left: 200px;
+}
+
+.results-nav .settings{
+	float:right;
+	clear:right;
+}
+
+.results-nav .settings li{
+	float:right;
+}
+
+.results-nav .settings li a{
+	padding: 8px;
+	padding-top:0;
+}
+
+.results-nav input[type="text"] {
+	margin:0;
+}
+
+footer{
+	bottom:0;
+	position:relative;
+	width:100%;
+	background-color:#f2f2f2;
+}
+
+footer ul{
+	display: block;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+footer .footer-l li {
+	float:left;
+}
+
+footer .footer-r li {
+	float: right;
+}
+
+footer li a{
+	display:block;
+	padding: 8px;
+}
+
+.main {
+	padding-top: 200px;
+	text-align: center;
+}
+
+.main .buttons {
+	display: block;
+	padding-top: 20px;
+}
+
+input[type="text"] {
+	width: 600px;
+	height: 30px;
+	margin: 30px;
+}
+
+#logo{
+	margin-right: 30px;
+}
