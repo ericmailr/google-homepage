@@ -104,7 +104,7 @@ html,body{
 
 footer{
 	bottom:0;
-	position:relative;
+	position:absolute;
 	width:100%;
 	background-color:#f2f2f2;
 }
